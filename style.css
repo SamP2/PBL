@@ -1,0 +1,98 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 20;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+.left img {
+    margin: 10;
+    width: 280px;
+    height: auto;
+}
+
+
+h1 {
+    font-size: 3em;
+    color: #333;
+    padding-left: 60px; /* This will move the h1 tag 50 pixels to the right */
+}
+
+
+p {
+    font-size: 1.2em;
+    color: #666;
+    padding-left: 60px;
+    margin-bottom: 20px;
+}
+ 
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 2px;
+    margin-left: 50px;
+    background-color:black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px; /* This will make the buttons round */
+}
+
+
+.right img {
+    max-width: 320px;
+    height: auto;
+    border-radius: 15px;
+    margin-left: 100;
+}
+
+.insights-support h2{
+    font-size: 2.5em;
+    text-align:left ;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-post {
+    width: 30%;
+    /* Add your styles for the blog post section here */
+    background-color: #f9f9f9; /* This will give the section a light grey background */
+    padding: 20px; /* This will add some space around the content */
+    border-radius: 15px; /* This will give the section rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* This will give the section a subtle shadow */
+}
+
+.blog-post h3 {
+    font-size: 1.5em; /* This will set the size of the blog post title */
+    margin-bottom: 10px; /* This will add some space below the title */
+}
+
+.blog-post p {
+    font-size: 1em; /* This will set the size of the blog post description */
+    color: #666; /* This will set the color of the description text */
+}
+
+
+.chatbot {
+    width: 30%;
+    /* Add your styles for the chatbot section here */
+}
+
+.health-tracker {
+    width: 30%;
+    /* Add your styles for the health tracker section here */
+}
+
+
+
+
